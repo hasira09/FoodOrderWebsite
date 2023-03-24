@@ -29,9 +29,8 @@ header {
 }
 
 .logo {
-    font-size: 2em;
-    color: whitesmoke;
-    user-select: none;
+    width: 20%;
+    height: 2%;
 }
 
 .navigation a {
@@ -269,4 +268,14 @@ header {
 
 .register p a:hover {
     text-decoration: underline;
+}
+
+#result-box {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    color: white;
 }
