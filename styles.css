@@ -80,7 +80,7 @@ header {
     color: #162938;
 }
 
-.wrapper {
+.box-form {
     position: relative;
     width: 400px;
     height: 440px;
@@ -97,41 +97,41 @@ header {
     transition: transform .9s ease, height .2s ease;
 }
 
-.wrapper.active-popup {
+.box-form.active-popup {
     transform: scale(1);
 }
 
-.wrapper.active {
+.box-form.active {
     height: 520px;
 }
 
-.wrapper .form-box {
+.box-form .form-box {
     width: 100%;
     padding: 40px;
 }
 
-.wrapper .form-box-login {
+.box-form .form-box-login {
     transition: transform .18s ease;
     transform: translateX(0);
 }
 
-.wrapper.active .form-box.login {
+.box-form.active .form-box.login {
     transition: none;
     transform: translateX(-400px);
 }
 
-.wrapper .form-box.register {
+.box-form .form-box.register {
     position: absolute;
     transition: none;
     transform: translateX(400px);
 }
 
-.wrapper.active .form-box.register {
+.box-form.active .form-box.register {
     transition: transform .18s ease;
     transform: translateX(0);
 }
 
-.wrapper .icon-close {
+.box-form .icon-close {
     position: absolute;
     top: 0;
     right: 0;
